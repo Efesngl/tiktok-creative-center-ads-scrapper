@@ -57,6 +57,8 @@ Run server
 | `order_by` | `string` | Order type|
 | `ad_language` | `string` | Language of the ads |
 | `country` | `string` | Countries of the ads |
+| `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
+| `page` | `int` | Page number |
 
 Parameter Usage
 ```http
@@ -75,6 +77,8 @@ Parameter Usage
 | `order_by` | `string` | Order type|
 | `ad_language` | `string` | Language of the ads |
 | `country` | `string` | Countries of the ads |
+| `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
+| `page` | `int` | Page number |
 
 #### Get the detail of the ad
 ```http
