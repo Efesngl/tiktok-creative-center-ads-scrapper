@@ -1,16 +1,90 @@
-# Tik Tok creativity center ads scrapper
-## To use this you need to docker or nodejs installed on your system
 
-- To use with docker
+# Tik Tok Creative Center Top Ads Dashboard scrapper
+This project scrapes the Tik Tok Creative Center's Top Ads Dashboard to get public ads
+
+
+## Run on your system
+
+Clone the project
+
 ```bash
-    Docker build . -t {image_tag}
-    Docker run -it {image_tag}
+  git clone https://github.com/Efesngl/tiktok-creative-center-ads-scrapper.git
 ```
 
-- To use with node.js
-- first comment the line 101 and uncomment the line 99 and edit the executablePath 
+Go to project folder
+
 ```bash
-    npm install
-    npx @puppeteer/browsers install chrome@stable
-    node app.js
+  cd tiktok-creative-center-ads-scrapper
 ```
+## To use with docker
+Build the docker image
+```bash
+  docker build . -t {image_tag}
+```
+Run the image
+```bash
+  docker run -p {host_port}:{container_port} --env PORT={container_port} {image_tag}
+```
+## To use on locally
+Install packages
+
+```bash
+  npm install
+```
+
+Run server
+
+```bash
+ node server.js
+```
+
+  
+## API Usage
+#### All the available filter options
+```http
+  GET /filters
+```
+#### Get ads
+
+```http
+  GET /getads?
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `period` | `integer` | Time limit |
+| `industry` | `integer` | Ids of the industry you want to search |
+| `order_by` | `string` | Order type|
+| `ad_language` | `string` | Language of the ads |
+| `country` | `string` | Countries of the ads |
+
+Parameter Usage
+```http
+?period=7&industry=25000000000,25000000000&order_by=ctrad_language=en&country=US
+```
+#### Get details of the ads
+
+```http
+  GET /getadsdetails?
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `period` | `integer` | Time limit |
+| `industry` | `integer` | Ids of the industry you want to search |
+| `order_by` | `string` | Order type|
+| `ad_language` | `string` | Language of the ads |
+| `country` | `string` | Countries of the ads |
+
+#### Get the detail of the ad
+```http
+  GET /getaddetail/ad_id
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `ad_id` | `integer` | ID of the ad |
+
+
+
+  

@@ -1,2058 +1,2001 @@
 {
-    "code": 0,
-    "msg": "OK",
-    "request_id": "2024043013553479D8671FB76DD911211F",
-    "data": {
-        "ad_language": [
-            {
-                "id": "en",
-                "label": "language_en",
-                "value": "language_en"
-            },
-            {
-                "id": "es",
-                "label": "language_es",
-                "value": "language_es"
-            },
-            {
-                "id": "ar",
-                "label": "language_ar",
-                "value": "language_ar"
-            },
-            {
-                "id": "vi",
-                "label": "language_vi",
-                "value": "language_vi"
-            },
-            {
-                "id": "th",
-                "label": "language_th",
-                "value": "language_th"
-            },
-            {
-                "id": "de",
-                "label": "language_de",
-                "value": "language_de"
-            },
-            {
-                "id": "id",
-                "label": "language_id",
-                "value": "language_id"
-            },
-            {
-                "id": "pt",
-                "label": "language_pt",
-                "value": "language_pt"
-            },
-            {
-                "id": "fr",
-                "label": "language_fr",
-                "value": "language_fr"
-            },
-            {
-                "id": "ms",
-                "label": "language_ms",
-                "value": "language_ms"
-            },
-            {
-                "id": "nl",
-                "label": "language_nl",
-                "value": "language_nl"
-            },
-            {
-                "id": "ja",
-                "label": "language_ja",
-                "value": "language_ja"
-            },
-            {
-                "id": "it",
-                "label": "language_it",
-                "value": "language_it"
-            },
-            {
-                "id": "ro",
-                "label": "language_ro",
-                "value": "language_ro"
-            },
-            {
-                "id": "zh-Hant",
-                "label": "language_zh-Hant",
-                "value": "language_zh-Hant"
-            },
-            {
-                "id": "ko",
-                "label": "language_ko",
-                "value": "language_ko"
-            }
-        ],
-        "country": [
-            {
-                "id": "AR",
-                "value": "Argentina",
-                "label": "AR"
-            },
-            {
-                "id": "AU",
-                "value": "Australia",
-                "label": "AU"
-            },
-            {
-                "id": "AT",
-                "value": "Austria",
-                "label": "AT"
-            },
-            {
-                "id": "BH",
-                "value": "Bahrain",
-                "label": "BH"
-            },
-            {
-                "id": "BD",
-                "value": "Bangladesh",
-                "label": "BD"
-            },
-            {
-                "id": "BY",
-                "value": "Belarus",
-                "label": "BY"
-            },
-            {
-                "id": "BE",
-                "value": "Belgium",
-                "label": "BE"
-            },
-            {
-                "id": "BR",
-                "value": "Brazil",
-                "label": "BR"
-            },
-            {
-                "id": "KH",
-                "value": "Cambodia",
-                "label": "KH"
-            },
-            {
-                "id": "CA",
-                "value": "Canada",
-                "label": "CA"
-            },
-            {
-                "id": "CL",
-                "value": "Chile",
-                "label": "CL"
-            },
-            {
-                "id": "CO",
-                "value": "Colombia",
-                "label": "CO"
-            },
-            {
-                "id": "CR",
-                "value": "Costa Rica",
-                "label": "CR"
-            },
-            {
-                "id": "CZ",
-                "value": "Czechia",
-                "label": "CZ"
-            },
-            {
-                "id": "DK",
-                "value": "Denmark",
-                "label": "DK"
-            },
-            {
-                "id": "DO",
-                "value": "Dominican Republic",
-                "label": "DO"
-            },
-            {
-                "id": "EC",
-                "value": "Ecuador",
-                "label": "EC"
-            },
-            {
-                "id": "EG",
-                "value": "Egypt",
-                "label": "EG"
-            },
-            {
-                "id": "FI",
-                "value": "Finland",
-                "label": "FI"
-            },
-            {
-                "id": "FR",
-                "value": "France",
-                "label": "FR"
-            },
-            {
-                "id": "DE",
-                "value": "Germany",
-                "label": "DE"
-            },
-            {
-                "id": "GR",
-                "value": "Greece",
-                "label": "GR"
-            },
-            {
-                "id": "GT",
-                "value": "Guatemala",
-                "label": "GT"
-            },
-            {
-                "id": "HU",
-                "value": "Hungary",
-                "label": "HU"
-            },
-            {
-                "id": "ID",
-                "value": "Indonesia",
-                "label": "ID"
-            },
-            {
-                "id": "IQ",
-                "value": "Iraq",
-                "label": "IQ"
-            },
-            {
-                "id": "IE",
-                "value": "Ireland",
-                "label": "IE"
-            },
-            {
-                "id": "IL",
-                "value": "Israel",
-                "label": "IL"
-            },
-            {
-                "id": "IT",
-                "value": "Italy",
-                "label": "IT"
-            },
-            {
-                "id": "JP",
-                "value": "Japan",
-                "label": "JP"
-            },
-            {
-                "id": "KZ",
-                "value": "Kazakhstan",
-                "label": "KZ"
-            },
-            {
-                "id": "KW",
-                "value": "Kuwait",
-                "label": "KW"
-            },
-            {
-                "id": "LB",
-                "value": "Lebanon",
-                "label": "LB"
-            },
-            {
-                "id": "MY",
-                "value": "Malaysia",
-                "label": "MY"
-            },
-            {
-                "id": "MX",
-                "value": "Mexico",
-                "label": "MX"
-            },
-            {
-                "id": "MA",
-                "value": "Morocco",
-                "label": "MA"
-            },
-            {
-                "id": "NL",
-                "value": "Netherlands",
-                "label": "NL"
-            },
-            {
-                "id": "NZ",
-                "value": "New Zealand",
-                "label": "NZ"
-            },
-            {
-                "id": "NO",
-                "value": "Norway",
-                "label": "NO"
-            },
-            {
-                "id": "OM",
-                "value": "Oman",
-                "label": "OM"
-            },
-            {
-                "id": "PK",
-                "value": "Pakistan",
-                "label": "PK"
-            },
-            {
-                "id": "PA",
-                "value": "Panama",
-                "label": "PA"
-            },
-            {
-                "id": "PE",
-                "value": "Peru",
-                "label": "PE"
-            },
-            {
-                "id": "PH",
-                "value": "Philippines",
-                "label": "PH"
-            },
-            {
-                "id": "PL",
-                "value": "Poland",
-                "label": "PL"
-            },
-            {
-                "id": "PT",
-                "value": "Portugal",
-                "label": "PT"
-            },
-            {
-                "id": "QA",
-                "value": "Qatar",
-                "label": "QA"
-            },
-            {
-                "id": "RO",
-                "value": "Romania",
-                "label": "RO"
-            },
-            {
-                "id": "SA",
-                "value": "Saudi Arabia",
-                "label": "SA"
-            },
-            {
-                "id": "SG",
-                "value": "Singapore",
-                "label": "SG"
-            },
-            {
-                "id": "ZA",
-                "value": "South Africa",
-                "label": "ZA"
-            },
-            {
-                "id": "KR",
-                "value": "South Korea",
-                "label": "KR"
-            },
-            {
-                "id": "ES",
-                "value": "Spain",
-                "label": "ES"
-            },
-            {
-                "id": "SE",
-                "value": "Sweden",
-                "label": "SE"
-            },
-            {
-                "id": "CH",
-                "value": "Switzerland",
-                "label": "CH"
-            },
-            {
-                "id": "TW",
-                "value": "Taiwan",
-                "label": "TW"
-            },
-            {
-                "id": "TH",
-                "value": "Thailand",
-                "label": "TH"
-            },
-            {
-                "id": "TR",
-                "value": "Turkey",
-                "label": "TR"
-            },
-            {
-                "id": "AE",
-                "value": "United Arab Emirates",
-                "label": "AE"
-            },
-            {
-                "id": "GB",
-                "value": "United Kingdom",
-                "label": "GB"
-            },
-            {
-                "id": "US",
-                "value": "United States",
-                "label": "US"
-            },
-            {
-                "id": "UY",
-                "value": "Uruguay",
-                "label": "UY"
-            },
-            {
-                "id": "VN",
-                "value": "Vietnam",
-                "label": "VN"
-            }
-        ],
-        "industry": [
-            {
-                "id": 25308000000,
-                "value": "Simulation",
-                "label": "label_25308000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 24105000000,
-                "value": "Chemical Materials",
-                "label": "label_24105000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 27000000000,
-                "value": "Food \u0026 Beverage",
-                "label": "label_27000000000"
-            },
-            {
-                "id": 10000000000,
-                "value": "Education",
-                "label": "label_10000000000"
-            },
-            {
-                "id": 23101000000,
-                "value": "Politics",
-                "label": "label_23101000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23104000000,
-                "value": "Culture \u0026 History",
-                "label": "label_23104000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23114000000,
-                "value": "Astrology",
-                "label": "label_23114000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 15104000000,
-                "value": "Gaming Devices",
-                "label": "label_15104000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 20000000000,
-                "value": "Apps",
-                "label": "label_20000000000"
-            },
-            {
-                "id": 18107000000,
-                "value": "Tissues \u0026 Wet Wipes",
-                "label": "label_18107000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 29102000000,
-                "value": "Dietary Supplements",
-                "label": "label_29102000000",
-                "parent_id": 29000000000
-            },
-            {
-                "id": 30100000000,
-                "value": "Big Box Retailers",
-                "label": "label_30100000000",
-                "parent_id": 30000000000
-            },
-            {
-                "id": 13107000000,
-                "value": "Funds",
-                "label": "label_13107000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 14999000000,
-                "value": "Other Beauty \u0026 Personal Care",
-                "label": "label_14999000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 20110000000,
-                "value": "Business \u0026 Productivity",
-                "label": "label_20110000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 25309000000,
-                "value": "Sports",
-                "label": "label_25309000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 26103000000,
-                "value": "Wedding Celebrations",
-                "label": "label_26103000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 22000000000,
-                "value": "Apparel \u0026 Accessories",
-                "label": "label_22000000000"
-            },
-            {
-                "id": 13108000000,
-                "value": "Credit Bureaus",
-                "label": "label_13108000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 13000000000,
-                "value": "Financial Services",
-                "label": "label_13000000000"
-            },
-            {
-                "id": 21105000000,
-                "value": "Power Strips \u0026 Socket",
-                "label": "label_21105000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 26112000000,
-                "value": "Consumer Services",
-                "label": "label_26112000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 12000000000,
-                "value": "Baby, Kids \u0026 Maternity",
-                "label": "label_12000000000"
-            },
-            {
-                "id": 20106000000,
-                "value": "Financial Services",
-                "label": "label_20106000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 24102000000,
-                "value": "Recruitment \u0026 Job Searching",
-                "label": "label_24102000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 26113000000,
-                "value": "Exercise \u0026 Fitness",
-                "label": "label_26113000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 28100000000,
-                "value": "Outdoor Equipment",
-                "label": "label_28100000000",
-                "parent_id": 28000000000
-            },
-            {
-                "id": 23113000000,
-                "value": "Anime",
-                "label": "label_23113000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 11109000000,
-                "value": "Water Vehicles",
-                "label": "label_11109000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 14105000000,
-                "value": "Aesthetic Medicine",
-                "label": "label_14105000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 12109000000,
-                "value": "Children's Apparel",
-                "label": "label_12109000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 24100000000,
-                "value": "Real Estate \u0026 Home Rentals",
-                "label": "label_24100000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 23106000000,
-                "value": "Law",
-                "label": "label_23106000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 25303000000,
-                "value": "Match",
-                "label": "label_25303000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 14103000000,
-                "value": "Skincare",
-                "label": "label_14103000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 25301000000,
-                "value": "Action",
-                "label": "label_25301000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 23108000000,
-                "value": "Celebrities \u0026 Gossip",
-                "label": "label_23108000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23119000000,
-                "value": "Movies",
-                "label": "label_23119000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 24111000000,
-                "value": "Logistics",
-                "label": "label_24111000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 20104000000,
-                "value": "Education",
-                "label": "label_20104000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 26106000000,
-                "value": "Shopping Services",
-                "label": "label_26106000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 13101000000,
-                "value": "Securities",
-                "label": "label_13101000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 13115000000,
-                "value": "Crowd Funding",
-                "label": "label_13115000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 22109000000,
-                "value": "Men's Shoes",
-                "label": "label_22109000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 24115000000,
-                "value": "Service Outsourcing",
-                "label": "label_24115000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 12103000000,
-                "value": "Diapers \u0026 Baby Wipes",
-                "label": "label_12103000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 13104000000,
-                "value": "Guarantees",
-                "label": "label_13104000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 14101000000,
-                "value": "Haircare",
-                "label": "label_14101000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 23115000000,
-                "value": "Humor",
-                "label": "label_23115000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 15102000000,
-                "value": "Computers Components",
-                "label": "label_15102000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 29999000000,
-                "value": "Other Health",
-                "label": "label_29999000000",
-                "parent_id": 29000000000
-            },
-            {
-                "id": 14000000000,
-                "value": "Beauty \u0026 Personal Care",
-                "label": "label_14000000000"
-            },
-            {
-                "id": 16102000000,
-                "value": "Large Appliances",
-                "label": "label_16102000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 22112000000,
-                "value": "Traditional \u0026 Ceremonial Clothing",
-                "label": "label_22112000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 30000000000,
-                "value": "E-Commerce (Non-app)",
-                "label": "label_30000000000"
-            },
-            {
-                "id": 21102000000,
-                "value": "Construction Materials \u0026 Lighting",
-                "label": "label_21102000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 11101000000,
-                "value": "Auto Accessories",
-                "label": "label_11101000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 23132000000,
-                "value": "Streaming Site",
-                "label": "label_23132000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 25300000000,
-                "value": "Hyper-Casual",
-                "label": "label_25300000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 12101000000,
-                "value": "Strollers \u0026 Cribs",
-                "label": "label_12101000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 19100000000,
-                "value": "Petfood",
-                "label": "label_19100000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 25307000000,
-                "value": "Shooting",
-                "label": "label_25307000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 23107000000,
-                "value": "Environmental Protection",
-                "label": "label_23107000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 21103000000,
-                "value": "Hardware \u0026 Electrical",
-                "label": "label_21103000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 24999000000,
-                "value": "Other Business Services",
-                "label": "label_24999000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 25311000000,
-                "value": "Party",
-                "label": "label_25311000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 17999000000,
-                "value": "Other Travel",
-                "label": "label_17999000000",
-                "parent_id": 17000000000
-            },
-            {
-                "id": 18109000000,
-                "value": "Leather Care",
-                "label": "label_18109000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 25306000000,
-                "value": "RPG",
-                "label": "label_25306000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 11103000000,
-                "value": "Auto Parts",
-                "label": "label_11103000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 18102000000,
-                "value": "Glasses \u0026 Drinkware",
-                "label": "label_18102000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 18104000000,
-                "value": "Coffee Accessories",
-                "label": "label_18104000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 21000000000,
-                "value": "Home Improvement",
-                "label": "label_21000000000"
-            },
-            {
-                "id": 26114000000,
-                "value": "Beauty \u0026 Personal Care",
-                "label": "label_26114000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 13110000000,
-                "value": "Investment Advisory",
-                "label": "label_13110000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 16000000000,
-                "value": "Appliances",
-                "label": "label_16000000000"
-            },
-            {
-                "id": 25305000000,
-                "value": "Racing",
-                "label": "label_25305000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 12100000000,
-                "value": "Baby Food",
-                "label": "label_12100000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 13111000000,
-                "value": "Loan Services",
-                "label": "label_13111000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 14102000000,
-                "value": "Wig \u0026 Hair Styling",
-                "label": "label_14102000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 24118000000,
-                "value": "Auction Services",
-                "label": "label_24118000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 23110000000,
-                "value": "Live Events",
-                "label": "label_23110000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23109000000,
-                "value": "Lifestyle News",
-                "label": "label_23109000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23100000000,
-                "value": "Military",
-                "label": "label_23100000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 15107000000,
-                "value": "Office Equipment",
-                "label": "label_15107000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 19103000000,
-                "value": "Pet Grooming",
-                "label": "label_19103000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 18106000000,
-                "value": "Cleaning Appliances",
-                "label": "label_18106000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 14100000000,
-                "value": "Oral Care",
-                "label": "label_14100000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 15101000000,
-                "value": "Computers",
-                "label": "label_15101000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 24104000000,
-                "value": "Electronics \u0026 Electrical",
-                "label": "label_24104000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 26108000000,
-                "value": "Gardening",
-                "label": "label_26108000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 26100000000,
-                "value": "Wedding Photography",
-                "label": "label_26100000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 27103000000,
-                "value": "Alcoholic Beverages",
-                "label": "label_27103000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 13116000000,
-                "value": "Cryptocurrencies",
-                "label": "label_13116000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 22102000000,
-                "value": "Bags",
-                "label": "label_22102000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 22106000000,
-                "value": "Ordinary Jewelry",
-                "label": "label_22106000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 26999000000,
-                "value": "Other Life Services",
-                "label": "label_26999000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 10103000000,
-                "value": "Overseas Education",
-                "label": "label_10103000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 11102000000,
-                "value": "Auto Services",
-                "label": "label_11102000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 29101000000,
-                "value": "Medical Information",
-                "label": "label_29101000000",
-                "parent_id": 29000000000
-            },
-            {
-                "id": 11112000000,
-                "value": "Car Dealerships",
-                "label": "label_11112000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 13103000000,
-                "value": "Trusts",
-                "label": "label_13103000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 17106000000,
-                "value": "Travel Agencies \u0026 Services",
-                "label": "label_17106000000",
-                "parent_id": 17000000000
-            },
-            {
-                "id": 17103000000,
-                "value": "Hotels \u0026 Accommodation",
-                "label": "label_17103000000",
-                "parent_id": 17000000000
-            },
-            {
-                "id": 27100000000,
-                "value": "Cuisine",
-                "label": "label_27100000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 24112000000,
-                "value": "Marketing \u0026 Advertising",
-                "label": "label_24112000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 21100000000,
-                "value": "Interior Design \u0026 Decorating Services",
-                "label": "label_21100000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 14104000000,
-                "value": "Cosmetics",
-                "label": "label_14104000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 21999000000,
-                "value": "Other Home Improvement",
-                "label": "label_21999000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 22108000000,
-                "value": "Men's Clothing",
-                "label": "label_22108000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 13117000000,
-                "value": "Credit Cards",
-                "label": "label_13117000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 23999000000,
-                "value": "Other News \u0026 Entertainment",
-                "label": "label_23999000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 26109000000,
-                "value": "Utilities Payments",
-                "label": "label_26109000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 12104000000,
-                "value": "Baby Bedding",
-                "label": "label_12104000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 23127000000,
-                "value": "General Information",
-                "label": "label_23127000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 11105000000,
-                "value": "Used Cars",
-                "label": "label_11105000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 27104000000,
-                "value": "Cooking \u0026 Recipes",
-                "label": "label_27104000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 13102000000,
-                "value": "Insurance",
-                "label": "label_13102000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 29100000000,
-                "value": "Medical Services",
-                "label": "label_29100000000",
-                "parent_id": 29000000000
-            },
-            {
-                "id": 24110000000,
-                "value": "Safety \u0026 Security",
-                "label": "label_24110000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 19106000000,
-                "value": "Pet Travel Accessories",
-                "label": "label_19106000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 25313000000,
-                "value": "Kids",
-                "label": "label_25313000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 23000000000,
-                "value": "News \u0026 Entertainment",
-                "label": "label_23000000000"
-            },
-            {
-                "id": 22999000000,
-                "value": "Other Apparel \u0026 Accessories",
-                "label": "label_22999000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 23112000000,
-                "value": "TV Drama \u0026 Series",
-                "label": "label_23112000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 24101000000,
-                "value": "Office Equipment \u0026 Supplies",
-                "label": "label_24101000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 19999000000,
-                "value": "Other Pets",
-                "label": "label_19999000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 10105000000,
-                "value": "Language Training",
-                "label": "label_10105000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 15000000000,
-                "value": "Tech \u0026 Electronics",
-                "label": "label_15000000000"
-            },
-            {
-                "id": 23117000000,
-                "value": "TV Variety Shows",
-                "label": "label_23117000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 11000000000,
-                "value": "Vehicle \u0026 Transportation",
-                "label": "label_11000000000"
-            },
-            {
-                "id": 16999000000,
-                "value": "Other Appliances",
-                "label": "label_16999000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 23122000000,
-                "value": "Beauty \u0026 Personal Care",
-                "label": "label_23122000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 24103000000,
-                "value": "Constructional Engineering",
-                "label": "label_24103000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 25999000000,
-                "value": "Other",
-                "label": "label_25999000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 12108000000,
-                "value": "Baby Feeding Supplies",
-                "label": "label_12108000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 26102000000,
-                "value": "Dating \u0026 Matchmaking Services",
-                "label": "label_26102000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 11100000000,
-                "value": "Automobiles",
-                "label": "label_11100000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 22107000000,
-                "value": "High-end Jewelry",
-                "label": "label_22107000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 12105000000,
-                "value": "Baby Shoes",
-                "label": "label_12105000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 28101000000,
-                "value": "Sports \u0026 Equipment",
-                "label": "label_28101000000",
-                "parent_id": 28000000000
-            },
-            {
-                "id": 10999000000,
-                "value": "Other Education",
-                "label": "label_10999000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 24107000000,
-                "value": "Franchising",
-                "label": "label_24107000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 27101000000,
-                "value": "Food \u0026 Fresh Produce",
-                "label": "label_27101000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 10104000000,
-                "value": "Vocational Training",
-                "label": "label_10104000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 16104000000,
-                "value": "Home Appliances",
-                "label": "label_16104000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 19101000000,
-                "value": "Pet Healthcare",
-                "label": "label_19101000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 11106000000,
-                "value": "Motorcycles",
-                "label": "label_11106000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 12999000000,
-                "value": "Other Baby, Kids \u0026 Maternity",
-                "label": "label_12999000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 18101000000,
-                "value": "Daily Essentials",
-                "label": "label_18101000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 24117000000,
-                "value": "Legal Services",
-                "label": "label_24117000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 13105000000,
-                "value": "Pawn Shops",
-                "label": "label_13105000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 16101000000,
-                "value": "Kitchen \u0026 Bathroom Appliances",
-                "label": "label_16101000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 11107000000,
-                "value": "Bicycles",
-                "label": "label_11107000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 15105000000,
-                "value": "Computer Accessories",
-                "label": "label_15105000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 10101000000,
-                "value": "Primary \u0026 Secondary Education \u0026 K-12",
-                "label": "label_10101000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 17105000000,
-                "value": "Tours \u0026 Attractions",
-                "label": "label_17105000000",
-                "parent_id": 17000000000
-            },
-            {
-                "id": 23125000000,
-                "value": "Games \u0026 Utility Software",
-                "label": "label_23125000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 26105000000,
-                "value": "Housekeeping",
-                "label": "label_26105000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 27102000000,
-                "value": "Non-alcoholic Beverages",
-                "label": "label_27102000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 19102000000,
-                "value": "Pet Household Products",
-                "label": "label_19102000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 20999000000,
-                "value": "Other Apps",
-                "label": "label_20999000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 20101000000,
-                "value": "Audio \u0026 Video Players",
-                "label": "label_20101000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 23130000000,
-                "value": "Real Estate Information",
-                "label": "label_23130000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 14107000000,
-                "value": "Feminine Care",
-                "label": "label_14107000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 19104000000,
-                "value": "Pet Treats",
-                "label": "label_19104000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 10106000000,
-                "value": "Non-academic Training (Hobbies)",
-                "label": "label_10106000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 18100000000,
-                "value": "Storage Products",
-                "label": "label_18100000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 23105000000,
-                "value": "Charity \u0026 Public Welfare",
-                "label": "label_23105000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 26111000000,
-                "value": "Internet Services",
-                "label": "label_26111000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 11104000000,
-                "value": "Car Rentals",
-                "label": "label_11104000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 24116000000,
-                "value": "IT Services",
-                "label": "label_24116000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 23124000000,
-                "value": "Food \u0026 Cooking",
-                "label": "label_23124000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 24119000000,
-                "value": "Investment Planning \u0026 Management",
-                "label": "label_24119000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 25304000000,
-                "value": "Puzzle",
-                "label": "label_25304000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 13114000000,
-                "value": "Third-Party Payments",
-                "label": "label_13114000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 29000000000,
-                "value": "Health",
-                "label": "label_29000000000"
-            },
-            {
-                "id": 18108000000,
-                "value": "Laundry",
-                "label": "label_18108000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 20103000000,
-                "value": "Photography",
-                "label": "label_20103000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 18110000000,
-                "value": "Cleaning Supplies",
-                "label": "label_18110000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 23116000000,
-                "value": "Culture \u0026 Art",
-                "label": "label_23116000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23111000000,
-                "value": "Collectables \u0026 Antiques",
-                "label": "label_23111000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 20105000000,
-                "value": "Online Shopping",
-                "label": "label_20105000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 16100000000,
-                "value": "Personal Care Appliances",
-                "label": "label_16100000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 29103000000,
-                "value": "Medicine",
-                "label": "label_29103000000",
-                "parent_id": 29000000000
-            },
-            {
-                "id": 26107000000,
-                "value": "Used Good Sales Platforms",
-                "label": "label_26107000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 13999000000,
-                "value": "Other Financial Services",
-                "label": "label_13999000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 18111000000,
-                "value": "Toys",
-                "label": "label_18111000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 24114000000,
-                "value": "Exhibition Services",
-                "label": "label_24114000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 27999000000,
-                "value": "Other Food \u0026 Beverage",
-                "label": "label_27999000000",
-                "parent_id": 27000000000
-            },
-            {
-                "id": 12110000000,
-                "value": "Baby Hygiene Products",
-                "label": "label_12110000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 23131000000,
-                "value": "Relationship Information",
-                "label": "label_23131000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 30101000000,
-                "value": "Small \u0026 Medium-sized E-commerce Platforms",
-                "label": "label_30101000000",
-                "parent_id": 30000000000
-            },
-            {
-                "id": 11111000000,
-                "value": "Accessories for 2/3-Wheeled Vehicles",
-                "label": "label_11111000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 20111000000,
-                "value": "Parenting",
-                "label": "label_20111000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 23103000000,
-                "value": "Science \u0026 Technology",
-                "label": "label_23103000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23123000000,
-                "value": "Sports \u0026 Fitness",
-                "label": "label_23123000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 23118000000,
-                "value": "Reading",
-                "label": "label_23118000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 24109000000,
-                "value": "Energy Conservation \u0026 Environmental Protection",
-                "label": "label_24109000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 22110000000,
-                "value": "Women's Clothing",
-                "label": "label_22110000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 22113000000,
-                "value": "Wearable Tech Devices",
-                "label": "label_22113000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 10102000000,
-                "value": "Higher Education",
-                "label": "label_10102000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 12102000000,
-                "value": "Baby Formula",
-                "label": "label_12102000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 20108000000,
-                "value": "Travel",
-                "label": "label_20108000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 15106000000,
-                "value": "Network Products",
-                "label": "label_15106000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 20102000000,
-                "value": "News \u0026 Reading",
-                "label": "label_20102000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 23128000000,
-                "value": "E-commerce Information",
-                "label": "label_23128000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 13113000000,
-                "value": "Precious Metals",
-                "label": "label_13113000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 25310000000,
-                "value": "Strategy",
-                "label": "label_25310000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 15100000000,
-                "value": "Cell Phones",
-                "label": "label_15100000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 12107000000,
-                "value": "Child Car Seats",
-                "label": "label_12107000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 18105000000,
-                "value": "Kitchen Accessories",
-                "label": "label_18105000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 17000000000,
-                "value": "Travel",
-                "label": "label_17000000000"
-            },
-            {
-                "id": 18000000000,
-                "value": "Household Products",
-                "label": "label_18000000000"
-            },
-            {
-                "id": 24000000000,
-                "value": "Business Services",
-                "label": "label_24000000000"
-            },
-            {
-                "id": 20112000000,
-                "value": "Utilities",
-                "label": "label_20112000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 10100000000,
-                "value": "Early Childhood \u0026 Preschool Education",
-                "label": "label_10100000000",
-                "parent_id": 10000000000
-            },
-            {
-                "id": 23102000000,
-                "value": "Business \u0026 Economy",
-                "label": "label_23102000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 11108000000,
-                "value": "Electric Scooters",
-                "label": "label_11108000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 13112000000,
-                "value": "Foreign Exchange Transactions",
-                "label": "label_13112000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 20100000000,
-                "value": "Social",
-                "label": "label_20100000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 25312000000,
-                "value": "Tabletop",
-                "label": "label_25312000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 24106000000,
-                "value": "Machinery \u0026 Equipment",
-                "label": "label_24106000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 24113000000,
-                "value": "Professional Consultation",
-                "label": "label_24113000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 26101000000,
-                "value": "Photography",
-                "label": "label_26101000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 25302000000,
-                "value": "Casino",
-                "label": "label_25302000000",
-                "parent_id": 25000000000
-            },
-            {
-                "id": 23126000000,
-                "value": "Car Information",
-                "label": "label_23126000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 22111000000,
-                "value": "Women's Shoes",
-                "label": "label_22111000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 24108000000,
-                "value": "Agriculture, Forestry, Animal Husbandry \u0026 Fishing",
-                "label": "label_24108000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 20109000000,
-                "value": "Health \u0026 Fitness",
-                "label": "label_20109000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 13109000000,
-                "value": "Microfinance Companies",
-                "label": "label_13109000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 21104000000,
-                "value": "Home Decor",
-                "label": "label_21104000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 14106000000,
-                "value": "Fragrances \u0026 Perfumes",
-                "label": "label_14106000000",
-                "parent_id": 14000000000
-            },
-            {
-                "id": 12106000000,
-                "value": "Toys for Kids",
-                "label": "label_12106000000",
-                "parent_id": 12000000000
-            },
-            {
-                "id": 11110000000,
-                "value": "Airplanes",
-                "label": "label_11110000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 11999000000,
-                "value": "Other Vehicle \u0026 Transportation",
-                "label": "label_11999000000",
-                "parent_id": 11000000000
-            },
-            {
-                "id": 16105000000,
-                "value": "Digital Devices",
-                "label": "label_16105000000",
-                "parent_id": 16000000000
-            },
-            {
-                "id": 13100000000,
-                "value": "Commercial Banks",
-                "label": "label_13100000000",
-                "parent_id": 13000000000
-            },
-            {
-                "id": 21101000000,
-                "value": "Furniture",
-                "label": "label_21101000000",
-                "parent_id": 21000000000
-            },
-            {
-                "id": 23133000000,
-                "value": "Tourist Information",
-                "label": "label_23133000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 30102000000,
-                "value": "Large E-commerce Platforms",
-                "label": "label_30102000000",
-                "parent_id": 30000000000
-            },
-            {
-                "id": 23134000000,
-                "value": "Social Media Account Promotion",
-                "label": "label_23134000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 18103000000,
-                "value": "Tea Sets",
-                "label": "label_18103000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 26000000000,
-                "value": "Life Services",
-                "label": "label_26000000000"
-            },
-            {
-                "id": 28000000000,
-                "value": "Sports \u0026 Outdoor",
-                "label": "label_28000000000"
-            },
-            {
-                "id": 19105000000,
-                "value": "Pet Toys",
-                "label": "label_19105000000",
-                "parent_id": 19000000000
-            },
-            {
-                "id": 18999000000,
-                "value": "Other Household Products",
-                "label": "label_18999000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 22105000000,
-                "value": "Watches",
-                "label": "label_22105000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 19000000000,
-                "value": "Pets",
-                "label": "label_19000000000"
-            },
-            {
-                "id": 15103000000,
-                "value": "Computer Repair",
-                "label": "label_15103000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 23129000000,
-                "value": "Pet Information",
-                "label": "label_23129000000",
-                "parent_id": 23000000000
-            },
-            {
-                "id": 26104000000,
-                "value": "Gifts \u0026 Flowers",
-                "label": "label_26104000000",
-                "parent_id": 26000000000
-            },
-            {
-                "id": 15999000000,
-                "value": "Other Tech \u0026 Electronics",
-                "label": "label_15999000000",
-                "parent_id": 15000000000
-            },
-            {
-                "id": 22101000000,
-                "value": "Clothing Accessories",
-                "label": "label_22101000000",
-                "parent_id": 22000000000
-            },
-            {
-                "id": 18112000000,
-                "value": "Pest Control",
-                "label": "label_18112000000",
-                "parent_id": 18000000000
-            },
-            {
-                "id": 20107000000,
-                "value": "Life \u0026 Leisure",
-                "label": "label_20107000000",
-                "parent_id": 20000000000
-            },
-            {
-                "id": 24120000000,
-                "value": "Individual Entrepreneurship",
-                "label": "label_24120000000",
-                "parent_id": 24000000000
-            },
-            {
-                "id": 25000000000,
-                "value": "Games",
-                "label": "label_25000000000"
-            }
-        ],
-        "objective": [
-            {
-                "has_conversion": false,
-                "id": 1,
-                "label": "campaign_objective_traffic",
-                "value": "Traffic"
-            },
-            {
-                "has_conversion": true,
-                "id": 2,
-                "label": "campaign_objective_app_install",
-                "value": "App Installs"
-            },
-            {
-                "has_conversion": true,
-                "id": 3,
-                "label": "campaign_objective_conversion",
-                "value": "Conversions"
-            },
-            {
-                "has_conversion": false,
-                "id": 4,
-                "label": "campaign_objective_video_view",
-                "value": "Video Views"
-            },
-            {
-                "has_conversion": false,
-                "id": 5,
-                "label": "campaign_objective_reach",
-                "value": "Reach"
-            },
-            {
-                "has_conversion": true,
-                "id": 8,
-                "label": "campaign_objective_lead_generation",
-                "value": "Lead Generation"
-            },
-            {
-                "has_conversion": false,
-                "id": 14,
-                "label": "campaign_objective_product_sales",
-                "value": "Product sales"
-            }
-        ],
-        "pattern_label": [
-            {
-                "id": 10100100000,
-                "value": "pattern_label_10100100000",
-                "label": "pattern_label_10100100000"
-            },
-            {
-                "id": 10100101000,
-                "value": "pattern_label_10100101000",
-                "label": "pattern_label_10100101000"
-            },
-            {
-                "id": 10102100000,
-                "value": "pattern_label_10102100000",
-                "label": "pattern_label_10102100000"
-            },
-            {
-                "id": 10102101000,
-                "value": "pattern_label_10102101000",
-                "label": "pattern_label_10102101000"
-            },
-            {
-                "id": 10102102000,
-                "value": "pattern_label_10102102000",
-                "label": "pattern_label_10102102000"
-            },
-            {
-                "id": 10102103000,
-                "value": "pattern_label_10102103000",
-                "label": "pattern_label_10102103000"
-            },
-            {
-                "id": 10102104000,
-                "value": "pattern_label_10102104000",
-                "label": "pattern_label_10102104000"
-            },
-            {
-                "id": 10101102000,
-                "value": "pattern_label_10101102000",
-                "label": "pattern_label_10101102000"
-            },
-            {
-                "id": 10101104000,
-                "value": "pattern_label_10101104000",
-                "label": "pattern_label_10101104000"
-            },
-            {
-                "id": 10101106000,
-                "value": "pattern_label_10101106000",
-                "label": "pattern_label_10101106000"
-            },
-            {
-                "id": 10101110000,
-                "value": "pattern_label_10101110000",
-                "label": "pattern_label_10101110000"
-            },
-            {
-                "id": 10101111000,
-                "value": "pattern_label_10101111000",
-                "label": "pattern_label_10101111000"
-            }
-        ],
-        "period": [
-            {
-                "id": 7,
-                "value": "Last 7 days",
-                "label": "seven_day"
-            },
-            {
-                "id": 30,
-                "value": "Last 30 days",
-                "label": "thirty_day"
-            },
-            {
-                "id": 180,
-                "value": "Last 180 days",
-                "label": "half_year"
-            }
-        ]
-    }
+    "ad_language": [
+        {
+            "id": "en",
+            "label": "language_en",
+            "value": "language_en"
+        },
+        {
+            "id": "es",
+            "label": "language_es",
+            "value": "language_es"
+        },
+        {
+            "id": "ar",
+            "label": "language_ar",
+            "value": "language_ar"
+        },
+        {
+            "id": "vi",
+            "label": "language_vi",
+            "value": "language_vi"
+        },
+        {
+            "id": "th",
+            "label": "language_th",
+            "value": "language_th"
+        },
+        {
+            "id": "de",
+            "label": "language_de",
+            "value": "language_de"
+        },
+        {
+            "id": "id",
+            "label": "language_id",
+            "value": "language_id"
+        },
+        {
+            "id": "pt",
+            "label": "language_pt",
+            "value": "language_pt"
+        },
+        {
+            "id": "fr",
+            "label": "language_fr",
+            "value": "language_fr"
+        },
+        {
+            "id": "ms",
+            "label": "language_ms",
+            "value": "language_ms"
+        },
+        {
+            "id": "nl",
+            "label": "language_nl",
+            "value": "language_nl"
+        },
+        {
+            "id": "ja",
+            "label": "language_ja",
+            "value": "language_ja"
+        },
+        {
+            "id": "it",
+            "label": "language_it",
+            "value": "language_it"
+        },
+        {
+            "id": "ro",
+            "label": "language_ro",
+            "value": "language_ro"
+        },
+        {
+            "id": "zh-Hant",
+            "label": "language_zh-Hant",
+            "value": "language_zh-Hant"
+        },
+        {
+            "id": "ko",
+            "label": "language_ko",
+            "value": "language_ko"
+        }
+    ],
+    "country": [
+        {
+            "id": "AR",
+            "value": "Argentina",
+            "label": "AR"
+        },
+        {
+            "id": "AU",
+            "value": "Australia",
+            "label": "AU"
+        },
+        {
+            "id": "AT",
+            "value": "Austria",
+            "label": "AT"
+        },
+        {
+            "id": "BH",
+            "value": "Bahrain",
+            "label": "BH"
+        },
+        {
+            "id": "BD",
+            "value": "Bangladesh",
+            "label": "BD"
+        },
+        {
+            "id": "BY",
+            "value": "Belarus",
+            "label": "BY"
+        },
+        {
+            "id": "BE",
+            "value": "Belgium",
+            "label": "BE"
+        },
+        {
+            "id": "BR",
+            "value": "Brazil",
+            "label": "BR"
+        },
+        {
+            "id": "KH",
+            "value": "Cambodia",
+            "label": "KH"
+        },
+        {
+            "id": "CA",
+            "value": "Canada",
+            "label": "CA"
+        },
+        {
+            "id": "CL",
+            "value": "Chile",
+            "label": "CL"
+        },
+        {
+            "id": "CO",
+            "value": "Colombia",
+            "label": "CO"
+        },
+        {
+            "id": "CR",
+            "value": "Costa Rica",
+            "label": "CR"
+        },
+        {
+            "id": "CZ",
+            "value": "Czechia",
+            "label": "CZ"
+        },
+        {
+            "id": "DK",
+            "value": "Denmark",
+            "label": "DK"
+        },
+        {
+            "id": "DO",
+            "value": "Dominican Republic",
+            "label": "DO"
+        },
+        {
+            "id": "EC",
+            "value": "Ecuador",
+            "label": "EC"
+        },
+        {
+            "id": "EG",
+            "value": "Egypt",
+            "label": "EG"
+        },
+        {
+            "id": "FI",
+            "value": "Finland",
+            "label": "FI"
+        },
+        {
+            "id": "FR",
+            "value": "France",
+            "label": "FR"
+        },
+        {
+            "id": "DE",
+            "value": "Germany",
+            "label": "DE"
+        },
+        {
+            "id": "GR",
+            "value": "Greece",
+            "label": "GR"
+        },
+        {
+            "id": "GT",
+            "value": "Guatemala",
+            "label": "GT"
+        },
+        {
+            "id": "HU",
+            "value": "Hungary",
+            "label": "HU"
+        },
+        {
+            "id": "ID",
+            "value": "Indonesia",
+            "label": "ID"
+        },
+        {
+            "id": "IQ",
+            "value": "Iraq",
+            "label": "IQ"
+        },
+        {
+            "id": "IE",
+            "value": "Ireland",
+            "label": "IE"
+        },
+        {
+            "id": "IL",
+            "value": "Israel",
+            "label": "IL"
+        },
+        {
+            "id": "IT",
+            "value": "Italy",
+            "label": "IT"
+        },
+        {
+            "id": "JP",
+            "value": "Japan",
+            "label": "JP"
+        },
+        {
+            "id": "KZ",
+            "value": "Kazakhstan",
+            "label": "KZ"
+        },
+        {
+            "id": "KW",
+            "value": "Kuwait",
+            "label": "KW"
+        },
+        {
+            "id": "LB",
+            "value": "Lebanon",
+            "label": "LB"
+        },
+        {
+            "id": "MY",
+            "value": "Malaysia",
+            "label": "MY"
+        },
+        {
+            "id": "MX",
+            "value": "Mexico",
+            "label": "MX"
+        },
+        {
+            "id": "MA",
+            "value": "Morocco",
+            "label": "MA"
+        },
+        {
+            "id": "NL",
+            "value": "Netherlands",
+            "label": "NL"
+        },
+        {
+            "id": "NZ",
+            "value": "New Zealand",
+            "label": "NZ"
+        },
+        {
+            "id": "NO",
+            "value": "Norway",
+            "label": "NO"
+        },
+        {
+            "id": "OM",
+            "value": "Oman",
+            "label": "OM"
+        },
+        {
+            "id": "PK",
+            "value": "Pakistan",
+            "label": "PK"
+        },
+        {
+            "id": "PA",
+            "value": "Panama",
+            "label": "PA"
+        },
+        {
+            "id": "PE",
+            "value": "Peru",
+            "label": "PE"
+        },
+        {
+            "id": "PH",
+            "value": "Philippines",
+            "label": "PH"
+        },
+        {
+            "id": "PL",
+            "value": "Poland",
+            "label": "PL"
+        },
+        {
+            "id": "PT",
+            "value": "Portugal",
+            "label": "PT"
+        },
+        {
+            "id": "QA",
+            "value": "Qatar",
+            "label": "QA"
+        },
+        {
+            "id": "RO",
+            "value": "Romania",
+            "label": "RO"
+        },
+        {
+            "id": "SA",
+            "value": "Saudi Arabia",
+            "label": "SA"
+        },
+        {
+            "id": "SG",
+            "value": "Singapore",
+            "label": "SG"
+        },
+        {
+            "id": "ZA",
+            "value": "South Africa",
+            "label": "ZA"
+        },
+        {
+            "id": "KR",
+            "value": "South Korea",
+            "label": "KR"
+        },
+        {
+            "id": "ES",
+            "value": "Spain",
+            "label": "ES"
+        },
+        {
+            "id": "SE",
+            "value": "Sweden",
+            "label": "SE"
+        },
+        {
+            "id": "CH",
+            "value": "Switzerland",
+            "label": "CH"
+        },
+        {
+            "id": "TW",
+            "value": "Taiwan",
+            "label": "TW"
+        },
+        {
+            "id": "TH",
+            "value": "Thailand",
+            "label": "TH"
+        },
+        {
+            "id": "TR",
+            "value": "Turkey",
+            "label": "TR"
+        },
+        {
+            "id": "AE",
+            "value": "United Arab Emirates",
+            "label": "AE"
+        },
+        {
+            "id": "GB",
+            "value": "United Kingdom",
+            "label": "GB"
+        },
+        {
+            "id": "US",
+            "value": "United States",
+            "label": "US"
+        },
+        {
+            "id": "UY",
+            "value": "Uruguay",
+            "label": "UY"
+        },
+        {
+            "id": "VN",
+            "value": "Vietnam",
+            "label": "VN"
+        }
+    ],
+    "industry": [
+        {
+            "id": 25308000000,
+            "value": "Simulation",
+            "label": "label_25308000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 24105000000,
+            "value": "Chemical Materials",
+            "label": "label_24105000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 27000000000,
+            "value": "Food \u0026 Beverage",
+            "label": "label_27000000000"
+        },
+        {
+            "id": 10000000000,
+            "value": "Education",
+            "label": "label_10000000000"
+        },
+        {
+            "id": 23101000000,
+            "value": "Politics",
+            "label": "label_23101000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23104000000,
+            "value": "Culture \u0026 History",
+            "label": "label_23104000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23114000000,
+            "value": "Astrology",
+            "label": "label_23114000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 15104000000,
+            "value": "Gaming Devices",
+            "label": "label_15104000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 20000000000,
+            "value": "Apps",
+            "label": "label_20000000000"
+        },
+        {
+            "id": 18107000000,
+            "value": "Tissues \u0026 Wet Wipes",
+            "label": "label_18107000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 29102000000,
+            "value": "Dietary Supplements",
+            "label": "label_29102000000",
+            "parent_id": 29000000000
+        },
+        {
+            "id": 30100000000,
+            "value": "Big Box Retailers",
+            "label": "label_30100000000",
+            "parent_id": 30000000000
+        },
+        {
+            "id": 13107000000,
+            "value": "Funds",
+            "label": "label_13107000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 14999000000,
+            "value": "Other Beauty \u0026 Personal Care",
+            "label": "label_14999000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 20110000000,
+            "value": "Business \u0026 Productivity",
+            "label": "label_20110000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 25309000000,
+            "value": "Sports",
+            "label": "label_25309000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 26103000000,
+            "value": "Wedding Celebrations",
+            "label": "label_26103000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 22000000000,
+            "value": "Apparel \u0026 Accessories",
+            "label": "label_22000000000"
+        },
+        {
+            "id": 13108000000,
+            "value": "Credit Bureaus",
+            "label": "label_13108000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 13000000000,
+            "value": "Financial Services",
+            "label": "label_13000000000"
+        },
+        {
+            "id": 21105000000,
+            "value": "Power Strips \u0026 Socket",
+            "label": "label_21105000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 26112000000,
+            "value": "Consumer Services",
+            "label": "label_26112000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 12000000000,
+            "value": "Baby, Kids \u0026 Maternity",
+            "label": "label_12000000000"
+        },
+        {
+            "id": 20106000000,
+            "value": "Financial Services",
+            "label": "label_20106000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 24102000000,
+            "value": "Recruitment \u0026 Job Searching",
+            "label": "label_24102000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 26113000000,
+            "value": "Exercise \u0026 Fitness",
+            "label": "label_26113000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 28100000000,
+            "value": "Outdoor Equipment",
+            "label": "label_28100000000",
+            "parent_id": 28000000000
+        },
+        {
+            "id": 23113000000,
+            "value": "Anime",
+            "label": "label_23113000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 11109000000,
+            "value": "Water Vehicles",
+            "label": "label_11109000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 14105000000,
+            "value": "Aesthetic Medicine",
+            "label": "label_14105000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 12109000000,
+            "value": "Children's Apparel",
+            "label": "label_12109000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 24100000000,
+            "value": "Real Estate \u0026 Home Rentals",
+            "label": "label_24100000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 23106000000,
+            "value": "Law",
+            "label": "label_23106000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 25303000000,
+            "value": "Match",
+            "label": "label_25303000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 14103000000,
+            "value": "Skincare",
+            "label": "label_14103000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 25301000000,
+            "value": "Action",
+            "label": "label_25301000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 23108000000,
+            "value": "Celebrities \u0026 Gossip",
+            "label": "label_23108000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23119000000,
+            "value": "Movies",
+            "label": "label_23119000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 24111000000,
+            "value": "Logistics",
+            "label": "label_24111000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 20104000000,
+            "value": "Education",
+            "label": "label_20104000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 26106000000,
+            "value": "Shopping Services",
+            "label": "label_26106000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 13101000000,
+            "value": "Securities",
+            "label": "label_13101000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 13115000000,
+            "value": "Crowd Funding",
+            "label": "label_13115000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 22109000000,
+            "value": "Men's Shoes",
+            "label": "label_22109000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 24115000000,
+            "value": "Service Outsourcing",
+            "label": "label_24115000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 12103000000,
+            "value": "Diapers \u0026 Baby Wipes",
+            "label": "label_12103000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 13104000000,
+            "value": "Guarantees",
+            "label": "label_13104000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 14101000000,
+            "value": "Haircare",
+            "label": "label_14101000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 23115000000,
+            "value": "Humor",
+            "label": "label_23115000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 15102000000,
+            "value": "Computers Components",
+            "label": "label_15102000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 29999000000,
+            "value": "Other Health",
+            "label": "label_29999000000",
+            "parent_id": 29000000000
+        },
+        {
+            "id": 14000000000,
+            "value": "Beauty \u0026 Personal Care",
+            "label": "label_14000000000"
+        },
+        {
+            "id": 16102000000,
+            "value": "Large Appliances",
+            "label": "label_16102000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 22112000000,
+            "value": "Traditional \u0026 Ceremonial Clothing",
+            "label": "label_22112000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 30000000000,
+            "value": "E-Commerce (Non-app)",
+            "label": "label_30000000000"
+        },
+        {
+            "id": 21102000000,
+            "value": "Construction Materials \u0026 Lighting",
+            "label": "label_21102000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 11101000000,
+            "value": "Auto Accessories",
+            "label": "label_11101000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 23132000000,
+            "value": "Streaming Site",
+            "label": "label_23132000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 25300000000,
+            "value": "Hyper-Casual",
+            "label": "label_25300000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 12101000000,
+            "value": "Strollers \u0026 Cribs",
+            "label": "label_12101000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 19100000000,
+            "value": "Petfood",
+            "label": "label_19100000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 25307000000,
+            "value": "Shooting",
+            "label": "label_25307000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 23107000000,
+            "value": "Environmental Protection",
+            "label": "label_23107000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 21103000000,
+            "value": "Hardware \u0026 Electrical",
+            "label": "label_21103000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 24999000000,
+            "value": "Other Business Services",
+            "label": "label_24999000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 25311000000,
+            "value": "Party",
+            "label": "label_25311000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 17999000000,
+            "value": "Other Travel",
+            "label": "label_17999000000",
+            "parent_id": 17000000000
+        },
+        {
+            "id": 18109000000,
+            "value": "Leather Care",
+            "label": "label_18109000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 25306000000,
+            "value": "RPG",
+            "label": "label_25306000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 11103000000,
+            "value": "Auto Parts",
+            "label": "label_11103000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 18102000000,
+            "value": "Glasses \u0026 Drinkware",
+            "label": "label_18102000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 18104000000,
+            "value": "Coffee Accessories",
+            "label": "label_18104000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 21000000000,
+            "value": "Home Improvement",
+            "label": "label_21000000000"
+        },
+        {
+            "id": 26114000000,
+            "value": "Beauty \u0026 Personal Care",
+            "label": "label_26114000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 13110000000,
+            "value": "Investment Advisory",
+            "label": "label_13110000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 16000000000,
+            "value": "Appliances",
+            "label": "label_16000000000"
+        },
+        {
+            "id": 25305000000,
+            "value": "Racing",
+            "label": "label_25305000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 12100000000,
+            "value": "Baby Food",
+            "label": "label_12100000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 13111000000,
+            "value": "Loan Services",
+            "label": "label_13111000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 14102000000,
+            "value": "Wig \u0026 Hair Styling",
+            "label": "label_14102000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 24118000000,
+            "value": "Auction Services",
+            "label": "label_24118000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 23110000000,
+            "value": "Live Events",
+            "label": "label_23110000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23109000000,
+            "value": "Lifestyle News",
+            "label": "label_23109000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23100000000,
+            "value": "Military",
+            "label": "label_23100000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 15107000000,
+            "value": "Office Equipment",
+            "label": "label_15107000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 19103000000,
+            "value": "Pet Grooming",
+            "label": "label_19103000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 18106000000,
+            "value": "Cleaning Appliances",
+            "label": "label_18106000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 14100000000,
+            "value": "Oral Care",
+            "label": "label_14100000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 15101000000,
+            "value": "Computers",
+            "label": "label_15101000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 24104000000,
+            "value": "Electronics \u0026 Electrical",
+            "label": "label_24104000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 26108000000,
+            "value": "Gardening",
+            "label": "label_26108000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 26100000000,
+            "value": "Wedding Photography",
+            "label": "label_26100000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 27103000000,
+            "value": "Alcoholic Beverages",
+            "label": "label_27103000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 13116000000,
+            "value": "Cryptocurrencies",
+            "label": "label_13116000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 22102000000,
+            "value": "Bags",
+            "label": "label_22102000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 22106000000,
+            "value": "Ordinary Jewelry",
+            "label": "label_22106000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 26999000000,
+            "value": "Other Life Services",
+            "label": "label_26999000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 10103000000,
+            "value": "Overseas Education",
+            "label": "label_10103000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 11102000000,
+            "value": "Auto Services",
+            "label": "label_11102000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 29101000000,
+            "value": "Medical Information",
+            "label": "label_29101000000",
+            "parent_id": 29000000000
+        },
+        {
+            "id": 11112000000,
+            "value": "Car Dealerships",
+            "label": "label_11112000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 13103000000,
+            "value": "Trusts",
+            "label": "label_13103000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 17106000000,
+            "value": "Travel Agencies \u0026 Services",
+            "label": "label_17106000000",
+            "parent_id": 17000000000
+        },
+        {
+            "id": 17103000000,
+            "value": "Hotels \u0026 Accommodation",
+            "label": "label_17103000000",
+            "parent_id": 17000000000
+        },
+        {
+            "id": 27100000000,
+            "value": "Cuisine",
+            "label": "label_27100000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 24112000000,
+            "value": "Marketing \u0026 Advertising",
+            "label": "label_24112000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 21100000000,
+            "value": "Interior Design \u0026 Decorating Services",
+            "label": "label_21100000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 14104000000,
+            "value": "Cosmetics",
+            "label": "label_14104000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 21999000000,
+            "value": "Other Home Improvement",
+            "label": "label_21999000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 22108000000,
+            "value": "Men's Clothing",
+            "label": "label_22108000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 13117000000,
+            "value": "Credit Cards",
+            "label": "label_13117000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 23999000000,
+            "value": "Other News \u0026 Entertainment",
+            "label": "label_23999000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 26109000000,
+            "value": "Utilities Payments",
+            "label": "label_26109000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 12104000000,
+            "value": "Baby Bedding",
+            "label": "label_12104000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 23127000000,
+            "value": "General Information",
+            "label": "label_23127000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 11105000000,
+            "value": "Used Cars",
+            "label": "label_11105000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 27104000000,
+            "value": "Cooking \u0026 Recipes",
+            "label": "label_27104000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 13102000000,
+            "value": "Insurance",
+            "label": "label_13102000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 29100000000,
+            "value": "Medical Services",
+            "label": "label_29100000000",
+            "parent_id": 29000000000
+        },
+        {
+            "id": 24110000000,
+            "value": "Safety \u0026 Security",
+            "label": "label_24110000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 19106000000,
+            "value": "Pet Travel Accessories",
+            "label": "label_19106000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 25313000000,
+            "value": "Kids",
+            "label": "label_25313000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 23000000000,
+            "value": "News \u0026 Entertainment",
+            "label": "label_23000000000"
+        },
+        {
+            "id": 22999000000,
+            "value": "Other Apparel \u0026 Accessories",
+            "label": "label_22999000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 23112000000,
+            "value": "TV Drama \u0026 Series",
+            "label": "label_23112000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 24101000000,
+            "value": "Office Equipment \u0026 Supplies",
+            "label": "label_24101000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 19999000000,
+            "value": "Other Pets",
+            "label": "label_19999000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 10105000000,
+            "value": "Language Training",
+            "label": "label_10105000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 15000000000,
+            "value": "Tech \u0026 Electronics",
+            "label": "label_15000000000"
+        },
+        {
+            "id": 23117000000,
+            "value": "TV Variety Shows",
+            "label": "label_23117000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 11000000000,
+            "value": "Vehicle \u0026 Transportation",
+            "label": "label_11000000000"
+        },
+        {
+            "id": 16999000000,
+            "value": "Other Appliances",
+            "label": "label_16999000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 23122000000,
+            "value": "Beauty \u0026 Personal Care",
+            "label": "label_23122000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 24103000000,
+            "value": "Constructional Engineering",
+            "label": "label_24103000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 25999000000,
+            "value": "Other",
+            "label": "label_25999000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 12108000000,
+            "value": "Baby Feeding Supplies",
+            "label": "label_12108000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 26102000000,
+            "value": "Dating \u0026 Matchmaking Services",
+            "label": "label_26102000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 11100000000,
+            "value": "Automobiles",
+            "label": "label_11100000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 22107000000,
+            "value": "High-end Jewelry",
+            "label": "label_22107000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 12105000000,
+            "value": "Baby Shoes",
+            "label": "label_12105000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 28101000000,
+            "value": "Sports \u0026 Equipment",
+            "label": "label_28101000000",
+            "parent_id": 28000000000
+        },
+        {
+            "id": 10999000000,
+            "value": "Other Education",
+            "label": "label_10999000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 24107000000,
+            "value": "Franchising",
+            "label": "label_24107000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 27101000000,
+            "value": "Food \u0026 Fresh Produce",
+            "label": "label_27101000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 10104000000,
+            "value": "Vocational Training",
+            "label": "label_10104000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 16104000000,
+            "value": "Home Appliances",
+            "label": "label_16104000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 19101000000,
+            "value": "Pet Healthcare",
+            "label": "label_19101000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 11106000000,
+            "value": "Motorcycles",
+            "label": "label_11106000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 12999000000,
+            "value": "Other Baby, Kids \u0026 Maternity",
+            "label": "label_12999000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 18101000000,
+            "value": "Daily Essentials",
+            "label": "label_18101000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 24117000000,
+            "value": "Legal Services",
+            "label": "label_24117000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 13105000000,
+            "value": "Pawn Shops",
+            "label": "label_13105000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 16101000000,
+            "value": "Kitchen \u0026 Bathroom Appliances",
+            "label": "label_16101000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 11107000000,
+            "value": "Bicycles",
+            "label": "label_11107000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 15105000000,
+            "value": "Computer Accessories",
+            "label": "label_15105000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 10101000000,
+            "value": "Primary \u0026 Secondary Education \u0026 K-12",
+            "label": "label_10101000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 17105000000,
+            "value": "Tours \u0026 Attractions",
+            "label": "label_17105000000",
+            "parent_id": 17000000000
+        },
+        {
+            "id": 23125000000,
+            "value": "Games \u0026 Utility Software",
+            "label": "label_23125000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 26105000000,
+            "value": "Housekeeping",
+            "label": "label_26105000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 27102000000,
+            "value": "Non-alcoholic Beverages",
+            "label": "label_27102000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 19102000000,
+            "value": "Pet Household Products",
+            "label": "label_19102000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 20999000000,
+            "value": "Other Apps",
+            "label": "label_20999000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 20101000000,
+            "value": "Audio \u0026 Video Players",
+            "label": "label_20101000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 23130000000,
+            "value": "Real Estate Information",
+            "label": "label_23130000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 14107000000,
+            "value": "Feminine Care",
+            "label": "label_14107000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 19104000000,
+            "value": "Pet Treats",
+            "label": "label_19104000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 10106000000,
+            "value": "Non-academic Training (Hobbies)",
+            "label": "label_10106000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 18100000000,
+            "value": "Storage Products",
+            "label": "label_18100000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 23105000000,
+            "value": "Charity \u0026 Public Welfare",
+            "label": "label_23105000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 26111000000,
+            "value": "Internet Services",
+            "label": "label_26111000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 11104000000,
+            "value": "Car Rentals",
+            "label": "label_11104000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 24116000000,
+            "value": "IT Services",
+            "label": "label_24116000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 23124000000,
+            "value": "Food \u0026 Cooking",
+            "label": "label_23124000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 24119000000,
+            "value": "Investment Planning \u0026 Management",
+            "label": "label_24119000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 25304000000,
+            "value": "Puzzle",
+            "label": "label_25304000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 13114000000,
+            "value": "Third-Party Payments",
+            "label": "label_13114000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 29000000000,
+            "value": "Health",
+            "label": "label_29000000000"
+        },
+        {
+            "id": 18108000000,
+            "value": "Laundry",
+            "label": "label_18108000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 20103000000,
+            "value": "Photography",
+            "label": "label_20103000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 18110000000,
+            "value": "Cleaning Supplies",
+            "label": "label_18110000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 23116000000,
+            "value": "Culture \u0026 Art",
+            "label": "label_23116000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23111000000,
+            "value": "Collectables \u0026 Antiques",
+            "label": "label_23111000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 20105000000,
+            "value": "Online Shopping",
+            "label": "label_20105000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 16100000000,
+            "value": "Personal Care Appliances",
+            "label": "label_16100000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 29103000000,
+            "value": "Medicine",
+            "label": "label_29103000000",
+            "parent_id": 29000000000
+        },
+        {
+            "id": 26107000000,
+            "value": "Used Good Sales Platforms",
+            "label": "label_26107000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 13999000000,
+            "value": "Other Financial Services",
+            "label": "label_13999000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 18111000000,
+            "value": "Toys",
+            "label": "label_18111000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 24114000000,
+            "value": "Exhibition Services",
+            "label": "label_24114000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 27999000000,
+            "value": "Other Food \u0026 Beverage",
+            "label": "label_27999000000",
+            "parent_id": 27000000000
+        },
+        {
+            "id": 12110000000,
+            "value": "Baby Hygiene Products",
+            "label": "label_12110000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 23131000000,
+            "value": "Relationship Information",
+            "label": "label_23131000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 30101000000,
+            "value": "Small \u0026 Medium-sized E-commerce Platforms",
+            "label": "label_30101000000",
+            "parent_id": 30000000000
+        },
+        {
+            "id": 11111000000,
+            "value": "Accessories for 2/3-Wheeled Vehicles",
+            "label": "label_11111000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 20111000000,
+            "value": "Parenting",
+            "label": "label_20111000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 23103000000,
+            "value": "Science \u0026 Technology",
+            "label": "label_23103000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23123000000,
+            "value": "Sports \u0026 Fitness",
+            "label": "label_23123000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 23118000000,
+            "value": "Reading",
+            "label": "label_23118000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 24109000000,
+            "value": "Energy Conservation \u0026 Environmental Protection",
+            "label": "label_24109000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 22110000000,
+            "value": "Women's Clothing",
+            "label": "label_22110000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 22113000000,
+            "value": "Wearable Tech Devices",
+            "label": "label_22113000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 10102000000,
+            "value": "Higher Education",
+            "label": "label_10102000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 12102000000,
+            "value": "Baby Formula",
+            "label": "label_12102000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 20108000000,
+            "value": "Travel",
+            "label": "label_20108000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 15106000000,
+            "value": "Network Products",
+            "label": "label_15106000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 20102000000,
+            "value": "News \u0026 Reading",
+            "label": "label_20102000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 23128000000,
+            "value": "E-commerce Information",
+            "label": "label_23128000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 13113000000,
+            "value": "Precious Metals",
+            "label": "label_13113000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 25310000000,
+            "value": "Strategy",
+            "label": "label_25310000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 15100000000,
+            "value": "Cell Phones",
+            "label": "label_15100000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 12107000000,
+            "value": "Child Car Seats",
+            "label": "label_12107000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 18105000000,
+            "value": "Kitchen Accessories",
+            "label": "label_18105000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 17000000000,
+            "value": "Travel",
+            "label": "label_17000000000"
+        },
+        {
+            "id": 18000000000,
+            "value": "Household Products",
+            "label": "label_18000000000"
+        },
+        {
+            "id": 24000000000,
+            "value": "Business Services",
+            "label": "label_24000000000"
+        },
+        {
+            "id": 20112000000,
+            "value": "Utilities",
+            "label": "label_20112000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 10100000000,
+            "value": "Early Childhood \u0026 Preschool Education",
+            "label": "label_10100000000",
+            "parent_id": 10000000000
+        },
+        {
+            "id": 23102000000,
+            "value": "Business \u0026 Economy",
+            "label": "label_23102000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 11108000000,
+            "value": "Electric Scooters",
+            "label": "label_11108000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 13112000000,
+            "value": "Foreign Exchange Transactions",
+            "label": "label_13112000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 20100000000,
+            "value": "Social",
+            "label": "label_20100000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 25312000000,
+            "value": "Tabletop",
+            "label": "label_25312000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 24106000000,
+            "value": "Machinery \u0026 Equipment",
+            "label": "label_24106000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 24113000000,
+            "value": "Professional Consultation",
+            "label": "label_24113000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 26101000000,
+            "value": "Photography",
+            "label": "label_26101000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 25302000000,
+            "value": "Casino",
+            "label": "label_25302000000",
+            "parent_id": 25000000000
+        },
+        {
+            "id": 23126000000,
+            "value": "Car Information",
+            "label": "label_23126000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 22111000000,
+            "value": "Women's Shoes",
+            "label": "label_22111000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 24108000000,
+            "value": "Agriculture, Forestry, Animal Husbandry \u0026 Fishing",
+            "label": "label_24108000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 20109000000,
+            "value": "Health \u0026 Fitness",
+            "label": "label_20109000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 13109000000,
+            "value": "Microfinance Companies",
+            "label": "label_13109000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 21104000000,
+            "value": "Home Decor",
+            "label": "label_21104000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 14106000000,
+            "value": "Fragrances \u0026 Perfumes",
+            "label": "label_14106000000",
+            "parent_id": 14000000000
+        },
+        {
+            "id": 12106000000,
+            "value": "Toys for Kids",
+            "label": "label_12106000000",
+            "parent_id": 12000000000
+        },
+        {
+            "id": 11110000000,
+            "value": "Airplanes",
+            "label": "label_11110000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 11999000000,
+            "value": "Other Vehicle \u0026 Transportation",
+            "label": "label_11999000000",
+            "parent_id": 11000000000
+        },
+        {
+            "id": 16105000000,
+            "value": "Digital Devices",
+            "label": "label_16105000000",
+            "parent_id": 16000000000
+        },
+        {
+            "id": 13100000000,
+            "value": "Commercial Banks",
+            "label": "label_13100000000",
+            "parent_id": 13000000000
+        },
+        {
+            "id": 21101000000,
+            "value": "Furniture",
+            "label": "label_21101000000",
+            "parent_id": 21000000000
+        },
+        {
+            "id": 23133000000,
+            "value": "Tourist Information",
+            "label": "label_23133000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 30102000000,
+            "value": "Large E-commerce Platforms",
+            "label": "label_30102000000",
+            "parent_id": 30000000000
+        },
+        {
+            "id": 23134000000,
+            "value": "Social Media Account Promotion",
+            "label": "label_23134000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 18103000000,
+            "value": "Tea Sets",
+            "label": "label_18103000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 26000000000,
+            "value": "Life Services",
+            "label": "label_26000000000"
+        },
+        {
+            "id": 28000000000,
+            "value": "Sports \u0026 Outdoor",
+            "label": "label_28000000000"
+        },
+        {
+            "id": 19105000000,
+            "value": "Pet Toys",
+            "label": "label_19105000000",
+            "parent_id": 19000000000
+        },
+        {
+            "id": 18999000000,
+            "value": "Other Household Products",
+            "label": "label_18999000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 22105000000,
+            "value": "Watches",
+            "label": "label_22105000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 19000000000,
+            "value": "Pets",
+            "label": "label_19000000000"
+        },
+        {
+            "id": 15103000000,
+            "value": "Computer Repair",
+            "label": "label_15103000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 23129000000,
+            "value": "Pet Information",
+            "label": "label_23129000000",
+            "parent_id": 23000000000
+        },
+        {
+            "id": 26104000000,
+            "value": "Gifts \u0026 Flowers",
+            "label": "label_26104000000",
+            "parent_id": 26000000000
+        },
+        {
+            "id": 15999000000,
+            "value": "Other Tech \u0026 Electronics",
+            "label": "label_15999000000",
+            "parent_id": 15000000000
+        },
+        {
+            "id": 22101000000,
+            "value": "Clothing Accessories",
+            "label": "label_22101000000",
+            "parent_id": 22000000000
+        },
+        {
+            "id": 18112000000,
+            "value": "Pest Control",
+            "label": "label_18112000000",
+            "parent_id": 18000000000
+        },
+        {
+            "id": 20107000000,
+            "value": "Life \u0026 Leisure",
+            "label": "label_20107000000",
+            "parent_id": 20000000000
+        },
+        {
+            "id": 24120000000,
+            "value": "Individual Entrepreneurship",
+            "label": "label_24120000000",
+            "parent_id": 24000000000
+        },
+        {
+            "id": 25000000000,
+            "value": "Games",
+            "label": "label_25000000000"
+        }
+    ],
+    "objective": [
+        {
+            "has_conversion": false,
+            "id": 1,
+            "label": "campaign_objective_traffic",
+            "value": "Traffic"
+        },
+        {
+            "has_conversion": true,
+            "id": 2,
+            "label": "campaign_objective_app_install",
+            "value": "App Installs"
+        },
+        {
+            "has_conversion": true,
+            "id": 3,
+            "label": "campaign_objective_conversion",
+            "value": "Conversions"
+        },
+        {
+            "has_conversion": false,
+            "id": 4,
+            "label": "campaign_objective_video_view",
+            "value": "Video Views"
+        },
+        {
+            "has_conversion": false,
+            "id": 5,
+            "label": "campaign_objective_reach",
+            "value": "Reach"
+        },
+        {
+            "has_conversion": true,
+            "id": 8,
+            "label": "campaign_objective_lead_generation",
+            "value": "Lead Generation"
+        },
+        {
+            "has_conversion": false,
+            "id": 14,
+            "label": "campaign_objective_product_sales",
+            "value": "Product sales"
+        }
+    ],
+    "period": [
+        {
+            "id": 7,
+            "value": "Last 7 days",
+            "label": "seven_day"
+        },
+        {
+            "id": 30,
+            "value": "Last 30 days",
+            "label": "thirty_day"
+        },
+        {
+            "id": 180,
+            "value": "Last 180 days",
+            "label": "half_year"
+        }
+    ],
+    "orders": [
+        "for_you",
+        "ctr",
+        "reach",
+        "play_2s_rate",
+        "play_6s_rate",
+        "cvr",
+        "likes"
+    ]
+]
 }
