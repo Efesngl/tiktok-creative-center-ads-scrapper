@@ -2,3 +2,5 @@ node_modules
 chrome
 .prettierrc
 docker-compose.yaml
+./creds.json
+/ads_*

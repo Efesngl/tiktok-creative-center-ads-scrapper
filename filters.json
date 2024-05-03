@@ -1988,7 +1988,7 @@
             "label": "half_year"
         }
     ],
-    "orders": [
+    "order_by": [
         "for_you",
         "ctr",
         "reach",
@@ -1996,5 +1996,27 @@
         "play_6s_rate",
         "cvr",
         "likes"
+    ],
+    "like":[
+        {
+            "id":1,
+            "value":"Top 1-20% likes"
+        },
+        {
+            "id":2,
+            "value":"Top 21-40% likes"
+        },
+        {
+            "id":3,
+            "value":"Top 41-60% likes"
+        },
+        {
+            "id":4,
+            "value":"Top 61-80% likes"
+        },
+        {
+            "id":5,
+            "value":"Top 81-100% likes"
+        }
     ]
 }
