@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import fs from "fs"
 export async function getAds(usersign, webid, timestamp,queryString) {
   let request=await fetch(`
   https://ads.tiktok.com/creative_radar_api/v1/top_ads/v2/list?${queryString}`, {
@@ -67,11 +68,26 @@ export async function getCredentials() {
     await Promise.all(pages.map((page) => page.close()));
     await browser.close();
     return {
-      usersign: userSign,
-      webid: webId,
-      timestamp: timestamp,
+      us: userSign,
+      wi: webId,
+      ts: timestamp,
     };
   } catch (error) {
     console.log(error.message);
   }
 }
+// (async()=>{
+//   let creds=await getCredentials()
+//   let u=creds.us
+//   let w=creds.wi
+//   let t=creds.ts
+//   let ads= await getAds(u,w,t,"period=7&industry=25300000000,25304000000&order_by=ctr&country=US&ad_language=en&limit=20&page=1")
+//   console.log(ads.data.materials);
+//   let adJson={}
+//   let index=0
+//   for (const ad of ads.data.materials) {
+//     let detail=await delayedFetch(ad.id,u,w,t,1000)
+//     index++
+//     adJson[index]=detail
+//   }
+// })()
