@@ -59,6 +59,8 @@ Run server
 | `country` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
 | `page` | `int` | Page number |
+| `like` | `int` | like type |
+
 
 Parameter Usage
 ```http
@@ -78,7 +80,7 @@ Parameter Usage
 | `ad_language` | `string` | Language of the ads |
 | `country` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
-| `page` | `int` | Page number |
+| `like` | `int` | like type |
 
 #### Get the detail of the ad
 ```http
