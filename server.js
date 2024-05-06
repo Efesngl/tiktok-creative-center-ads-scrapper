@@ -14,7 +14,13 @@ async function setCredentials() {
   fs.writeFileSync("./creds.json", JSON.stringify(credentials), "utf8");
   return true;
 }
-
+function writeOutput(path,fileName,data){
+  if(!fs.existsSync(path)){
+    console.log("mkdir girdi");
+    fs.mkdirSync(path)
+  }
+  fs.writeFileSync(path+fileName,data,{encoding:"utf8"})
+}
 app.get("/getads", async (req, res) => {
   let qs = QueryString.stringify(req.query);
   let ads = await getAds(
@@ -75,13 +81,9 @@ app.get("/getadsdetail", async (req, res) => {
     like: qsp.like,
     objective: qsp.objective,
   };
-  fs.writeFileSync(
-    `ads_${date.getDay()}-${date.getMonth()}-${date.getFullYear()}/period_${
-      qsp["period"]
-    }.json`,
-    JSON.stringify(adsArray),
-    "utf8"
-  );
+  let path=`ads_${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`
+  let fileName=`/period_${qsp["period"]}.json`
+  writeOutput(path,fileName,JSON.stringify(adsArray))
   res.json(adsArray);
 });
 app.get("/getaddetail/:adid", async (req, res) => {
