@@ -21,4 +21,5 @@ RUN npm i \
 && groupadd -r pptruser && useradd -m -r -g pptruser -G audio,video pptruser \
 && chown -R pptruser:pptruser /home/pptruser
 USER pptruser
-CMD [ "node","server.js" ]
+ARG PORT=3000
+EXPOSE $PORT

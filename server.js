@@ -67,7 +67,7 @@ app.get("/getadsdetail", async (req, res) => {
       credentials.userSign,
       credentials.webID,
       credentials.timestamp,
-      500
+      100
     );
     adsArray[ad.id] = data.data;
   }

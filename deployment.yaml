@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tiktok-scrapper
+spec:
+  selector:
+    matchLabels:
+      app: tiktok-scrapper
+  template:
+    metadata:
+      labels:
+        app: tiktok-scrapper
+    spec:
+      containers:
+        - name: tiktok-scrapper
+          image: tiktok_scrapper:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000
+          command: ["/bin/bash"]
+          args:
+            - -c
+            - node server.js
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: scrapper-service
+spec:
+  selector:
+    app: tiktok-scrapper
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 3000

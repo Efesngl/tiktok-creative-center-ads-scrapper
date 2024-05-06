@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
+    "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
     "puppeteer": "^22.7.1",
     "puppeteer-extra": "^3.3.6",

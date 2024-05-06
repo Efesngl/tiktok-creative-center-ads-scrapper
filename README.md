@@ -59,12 +59,13 @@ Run server
 | `country` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
 | `page` | `int` | Page number |
-| `like` | `int` | like type |
+| `like` | `int` | Like type |
+| `objective` | `int` | Type of the objective you want |
 
 
 Parameter Usage
 ```http
-?period=7&industry=25000000000,25000000000&order_by=ctrad_language=en&country=US
+?period=7&industry=25000000000,25000000000&order_by=ctrad_language=en&country=US&objective=1
 ```
 #### Get details of the ads
 
@@ -80,7 +81,8 @@ Parameter Usage
 | `ad_language` | `string` | Language of the ads |
 | `country` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
-| `like` | `int` | like type |
+| `like` | `int` | Like type |
+| `objective` | `int` | Type of the objective you want |
 
 #### Get the detail of the ad
 ```http
