@@ -56,16 +56,17 @@ Run server
 | `industry` | `integer` | Ids of the industry you want to search |
 | `order_by` | `string` | Order type|
 | `ad_language` | `string` | Language of the ads |
-| `country` | `string` | Countries of the ads |
+| `country_code` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
 | `page` | `int` | Page number |
 | `like` | `int` | Like type |
 | `objective` | `int` | Type of the objective you want |
+|`keyword`| `string`| Keys you want to search |
 
 
 Parameter Usage
 ```http
-?period=7&industry=25000000000,25000000000&order_by=ctrad_language=en&country=US&objective=1
+?period=7&industry=25000000000,25000000000&order_by=ctrad_language=en&country=US&objective=1&keyword=hyper+casual
 ```
 #### Get details of the ads
 
@@ -79,10 +80,11 @@ Parameter Usage
 | `industry` | `integer` | Ids of the industry you want to search |
 | `order_by` | `string` | Order type|
 | `ad_language` | `string` | Language of the ads |
-| `country` | `string` | Countries of the ads |
+| `country_code` | `string` | Countries of the ads |
 | `limit` | `int` | Maximum amount of the ads that will be returned. MAX:20 |
 | `like` | `int` | Like type |
 | `objective` | `int` | Type of the objective you want |
+|`keyword`| `string`| Keys you want to search |
 
 #### Get the detail of the ad
 ```http

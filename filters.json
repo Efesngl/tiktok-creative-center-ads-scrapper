@@ -81,7 +81,7 @@
             "value": "language_ko"
         }
     ],
-    "country": [
+    "country_code": [
         {
             "id": "AR",
             "value": "Argentina",

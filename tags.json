@@ -1,0 +1,17 @@
+{
+    "1": {
+        "tagKey": "video_tag_expert_choice",
+        "tagTipKey": "video_tag_expert_choice_tip",
+        "tagColor": "#FF66FD"
+    },
+    "2": {
+        "tagKey": "video_tag_high_engagement",
+        "tagTipKey": "video_tag_high_engagement_tip",
+        "tagColor": "#0FD9D0"
+    },
+    "3": {
+        "tagKey": "video_tag_most_favored",
+        "tagTipKey": "video_tag_most_favored_tip",
+        "tagColor": "#FE2C55"
+    }
+}

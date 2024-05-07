@@ -5,3 +5,4 @@ docker-compose.yaml
 creds.json
 /ads_*
 bun.lockb
+deployment.yaml
