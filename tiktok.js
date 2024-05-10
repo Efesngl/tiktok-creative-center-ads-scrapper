@@ -25,6 +25,7 @@ export function delayedFetch(id, usersign, webid, timestamp, delay) {
           timestamp: timestamp,
           "user-sign": usersign,
           "web-id": webid,
+          "referer":"https://ads.tiktok.com/business/creativecenter/topads/7227019800173428738/pad/en"
         },
         body: null,
         method: "GET",

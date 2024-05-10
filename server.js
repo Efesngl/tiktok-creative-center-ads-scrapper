@@ -12,6 +12,7 @@ async function setCredentials() {
   credentials.webID = c.wi;
   credentials.timestamp = c.ts;
   fs.writeFileSync("./creds.json", JSON.stringify(credentials), "utf8");
+  await new Promise(resolve=>setTimeout(resolve, 15000));
   return true;
 }
 function writeOutput(path,fileName,data){
@@ -21,7 +22,10 @@ function writeOutput(path,fileName,data){
   }
   fs.writeFileSync(path+fileName,data,{encoding:"utf8"})
 }
+
+
 app.get("/getads", async (req, res) => {
+  let qsp = QueryString.parse(req.query);
   let qs = QueryString.stringify(req.query);
   let ads = await getAds(
     credentials.userSign,
@@ -39,6 +43,19 @@ app.get("/getads", async (req, res) => {
       qs
     );
   }
+  let date=new Date()
+  ads.data.materials["filters"] = {
+    period: qsp.period,
+    industry: qsp.industry,
+    order_by: qsp.order_by,
+    ad_language: qsp.ad_language,
+    country: qsp.country,
+    like: qsp.like,
+    objective: qsp.objective,
+  };
+  let path=`ads_${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`
+  let fileName=`/period_${qsp["period"]}_order_${qsp["order_by"]}_page_${qsp["page"]}.json`
+  writeOutput(path,fileName,JSON.stringify(ads.data.materials))
   res.json(ads);
 });
 app.get("/getadsdetail", async (req, res) => {
@@ -67,9 +84,10 @@ app.get("/getadsdetail", async (req, res) => {
       credentials.userSign,
       credentials.webID,
       credentials.timestamp,
-      100
+      15000
     );
-    adsArray[ad.id] = data.data;
+    console.log(data);
+    adsArray[ad.id] = await data.data;
   }
   let date = new Date();
   adsArray["filters"] = {
@@ -82,7 +100,7 @@ app.get("/getadsdetail", async (req, res) => {
     objective: qsp.objective,
   };
   let path=`ads_${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`
-  let fileName=`/period_${qsp["period"]}.json`
+  let fileName=`/period_${qsp["period"]}_order_${qsp["order_by"]}_page_${qsp["page"]}.json`
   writeOutput(path,fileName,JSON.stringify(adsArray))
   res.json(adsArray);
 });
