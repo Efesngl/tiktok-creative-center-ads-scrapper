@@ -58,52 +58,6 @@ app.get("/getads", async (req, res) => {
   writeOutput(path,fileName,JSON.stringify(ads.data.materials))
   res.json(ads);
 });
-app.get("/getadsdetail", async (req, res) => {
-  let qs = QueryString.stringify(req.query);
-  let qsp = QueryString.parse(req.query);
-  let ads = await getAds(
-    credentials.userSign,
-    credentials.webID,
-    credentials.timestamp,
-    qs
-  );
-  if (ads.code != 0) {
-    console.log("get adsd etails cred");
-    await setCredentials();
-    ads = await getAds(
-      credentials.userSign,
-      credentials.webID,
-      credentials.timestamp,
-      qs
-    );
-  }
-  let adsArray = {};
-  for (const ad of ads.data.materials) {
-    let data = await delayedFetch(
-      ad.id,
-      credentials.userSign,
-      credentials.webID,
-      credentials.timestamp,
-      15000
-    );
-    console.log(data);
-    adsArray[ad.id] = await data.data;
-  }
-  let date = new Date();
-  adsArray["filters"] = {
-    period: qsp.period,
-    industry: qsp.industry,
-    order_by: qsp.order_by,
-    ad_language: qsp.ad_language,
-    country: qsp.country,
-    like: qsp.like,
-    objective: qsp.objective,
-  };
-  let path=`ads_${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`
-  let fileName=`/period_${qsp["period"]}_order_${qsp["order_by"]}_page_${qsp["page"]}.json`
-  writeOutput(path,fileName,JSON.stringify(adsArray))
-  res.json(adsArray);
-});
 app.get("/getaddetail/:adid", async (req, res) => {
   let detail = await delayedFetch(
     req.params.adid,
